@@ -41,7 +41,7 @@
 		&::after {
 			content: ' ';
 			display: inline-block;
-			background-image: url(/img/icon/subtract_white.png);
+			background-image: url(img/icon/subtract_white.png);
 			width: 10px;
 			height: 10px;
 			background-repeat: no-repeat;
@@ -57,7 +57,7 @@
 		&::after {
 			content: ' ';
 			display: inline-block;
-			background-image: url(/img/icon/subtract_white.png);
+			background-image: url(img/icon/subtract_white.png);
 			width: 10px;
 			height: 10px;
 			background-repeat: no-repeat;
@@ -179,7 +179,7 @@
 	&__buttons-buttonLeft {
 		width: 200px;
 		height: 60px;
-		background-image: url(/img/frame_yellow.png) ;
+		background-image: url(img/frame_yellow.png) ;
 		background-repeat: no-repeat;
 		text-align: center;
 		padding-top: 15px;
@@ -190,7 +190,7 @@
 	&__buttons-buttonRight {
 		width: 200px;
 		height: 60px;
-		background-image: url(/img/frame_gray.png) ;
+		background-image: url(img/frame_gray.png) ;
 		background-repeat: no-repeat;
 		padding-left: 24px;
 		padding-top: 15px;
@@ -226,7 +226,7 @@
 	&__trust-text::after{
 		content: ' ';
 		display: inline-block;
-		background-image: url(/img/icon/substract.png);
+		background-image: url(img/icon/substract.png);
 		width: 60px;
 		height: 15px;
 		background-repeat: no-repeat;
