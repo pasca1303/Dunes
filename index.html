@@ -12,21 +12,25 @@
     <body>
         <div class="wrapper">
             <div class="container">
-                <div class="header">
+                <header class="header">
                     <div class="header__left">
-                        <div ><img class='header__left-logo' src="img/logo/Dunes.png" alt=""></div>
-                        <div class="header__left-incubation ">Incubation</div>
-                        <div class="header__left-protocool ">Protocool</div>
+                        <a href="/">
+                            <img class='header__left-logo' src="img/logo/Dunes.png" alt="">
+                        </a>
+                        <a href="/incubation" class="header__left-incubation ">Incubation</a>
+                        <a href="/protocol" class="header__left-protocool ">Protocool</a>
                     </div>
                     <div class="header__right">
-                        <div class="header__right-conWall-wrapp ">
-                            <div class="header__right-conWall">CONNECT WALLET</div>
+                        <div class="header__right-conWall-wrapp">
+                            <button class="header__right-conWall">CONNECT WALLET</button>
                             <img class='header__rigth-conWall-bg' src="img/frame_gray_bg.png" alt="">
+                            <!-- картинка должна использоваться фоном к кнопке -->
                         </div>
                     </div>
                         
-                </div>
-                <div class="blok1">
+                </header>
+                <div class="block1"> <!-- нужно называть конкретными именами -->
+                    <!-- как вариант, можно использовать block и block__first, block__second -->
                     <div class="block1__video-container">
                         <video class='block1__video' autoplay>
                         <source  src='video/video.mp4' type="video/mp4">
@@ -36,6 +40,7 @@
                         <div class="block1__titles">
                             <h1 class='block1__titles-h1'  >Join the most innovative <span class='block1__titles-launchpad' >launchpad</span> of 2024</h1>
                             <h3 class='block1__titles-h3'> Platform forged from Sands of ancient desert to provide incubation to innovations on Runes protocol</h3>
+                            <!-- не видел макет, но думаю нет смысла заголовок 3 уровня использовать. тут параграф подойдёт -->
                         </div>
                         <div class="block1__buttons">
                             <div class="block1__buttons-buttonLeft">BUY $DUNES</div>
@@ -47,7 +52,7 @@
                     <div class="block2__trust">
                         <div class="block2__trust-text">TRUSTED BY</div>
                         <div class="block2__trust-items-container">
-                            <div class="block2__trust-items trust-item">
+                            <div class="block2__trust-items trust-item" >
                                 <div class="block2__trust-items-chain"><img src="img/logo/Chain.png" alt=""></div>
                                 <div class="block2__trust-items-mexc trust-item"><img src="img/logo/Mexc.png" alt=""></div>
                                 <div class="block2__trust-items-gains trust-item"><img src="img/logo/Gains.png" alt=""></div>
